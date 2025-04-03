@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>연습하기</title>
+    </head>
+    <body>
+        <h1>연습</h1>
+        <h2>form 연습하기</h2>
+
+        <form>
+            <label for="id">아이디</label>
+            <input id="id" type="text" placeholder="아이디를 입력해주십시오" name="" value="">
+            <br>
+            <label for="pw">패스워드</label>
+            <input id="pw" type="password" placeholder="패스워드를 입력해주십시오" name="" value="">
+            <br><br>
+
+            <button type="submit">제출하기</button>
+
+        </form>
+
+        <br><br><br><br>
+        -------------------------------------------------
+
+        <h2>form 연습하기-checkbox</h2>
+            
+        <form action="" method="get">
+            <label for="chk-baseball">야구</label>
+            <input id="chk-baseball" type="checkbox" name="sports" value="baseball">
+
+            <label for="chk-soccer">축구</label>
+            <input id="chk-soccer" type="checkbox" name="sports" value="soccer" checked="checked">
+
+            <label for="chk-basketball">농구</label>
+            <input id="chk-basketball" type="checkbox" name="sports" value="basketball">
+
+            <br><br>
+            <label for="rd-salary">직장인</label>
+            <input id="rd-salary" type="radio" name="works" value="salary">
+
+            <label for="rd-student">학생</label>
+            <input id="rd-student" type="radio" name="works" value="student">
+
+            <label for="mom">주부</label>
+            <input id="mom" type="radio" name="works" value="mom">
+            <br><br>
+            <button type="submit">제출하기</button>
+            <button type="reset">초기화</button>
+
+
+        </form>
+        <br>
+        --------------------------------------------------
+        <br>
+        
+        <h2>select 연습하기</h2>
+
+        <form>
+
+            <select name="level">
+                <option value="" selected="selected">난이도선택</option>
+                <option value="levela">입문자</option>
+                <option vlaue="levelb">초급자</option>
+                <option value="levelc">중급자</option>
+                <option value="leveld">고급자</option>
+            </select>
+            <br>
+
+            <button type="submit">제출하기</button>
+            <br><br><br><br>
+            <textarea>메모하기</textarea>
+        </form>
+
+
+    </body>
+</html>

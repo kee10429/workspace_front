@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html5공부</title>
+
+        <style>
+            .cpt{
+                font-size:20px;
+            }
+            thead{
+                background-color:#bfbfbf;
+            }
+            .yellow{
+                background-color: #b7c51b;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>표 만들어보기</h1>
+        <table border="1">
+            <caption class="cpt">모집분야</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">모집직군</th>
+                    <!--<td>1,2</td>-->
+                    <th>모집전공</th>
+                    <th>비고</th>
+                    <th>근무지</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="2">생산기술직</th>
+                    <!--<td>1,2</td>-->
+                    <td class="yellow">화학공학</td>
+                    <td rowspan="3">전공관련 자격증 우대</td>
+                    <td rowspan="5">충남 서산</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">생산지원직</th>
+                    <th>공무</th>
+                    <td>기계,전기</td>
+                    <!--<td>1,4</td>-->
+                    <!--<td>1,5</td>-->
+                </tr>
+                <tr>
+                    <!--<td>4,1</td>-->
+                    <th>안전환경</th>
+                    <td>안전,환경</td>
+                    <!--<td>1,4</td>-->
+                    <!--<td>1,5</td>-->
+                </tr>
+                <tr>
+                    <th colspan="2">연구개발직</th>
+                    <!--<td>1,2</td>-->
+                    <td class="yellow">화학,화학공학</td>
+                    <td>석사</td>
+                    <!--<td>1,5</td>-->
+                </tr>
+                <tr>
+                    <th colspan="2">경영지원직</th>
+                    <!--<td>1,2</td>-->
+                    <td>상경계열</td>
+                    <td></td>
+                    <!--<td>1,5</td>-->
+                </tr>
+                <tr>
+                    <th colspan="2">영업마케팅직</th>
+                    <!--<td>1,2</td>-->
+                    <td>상경계열</td>
+                    <td></td>
+                    <td>서울 중구</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>a 요소</h2>
+        <a href="https://www.naver.com/">네이버</a>
+        <a href="https://www.coupang.com/">쿠팡</a>
+        <a href="https://www.temu.com/kr" target="_blank">테무</a>
+        <br><br><br><br>
+        <a href="https://www.naver.com/" target="_blank">네이버</a>
+        <a href="https://www.coupang.com/" target="_self">쿠팡</a>
+
+        <a href="https://www.coupang.com/" target="쿠팡">쿠팡</a>
+    </body>
+</html>
+
