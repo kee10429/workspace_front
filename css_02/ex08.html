@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+         <style>
+            .btn{
+                display:inline-block;
+                text-decoration: none;
+                width:130px;
+                height:40px;
+                border-radius:5px;
+                font-size:20px;
+                text-align:center;
+                line-height:40px;
+            }
+            .btn-gray{
+                background-color:#bfbfbf;
+                border:2px solid #7d7d7d;
+            }
+
+            .btn-blue{
+                background-color:#6c61ca;
+                border:2px solid #330ec7;
+            }
+            .btn-blue:hover{background-color:#3b2594}
+
+            .btn-red{
+                background-color:#ea0d0d;
+                border:2px solid #ff2424;
+            }
+         </style>
+    </head>
+
+    <body>
+        <div class="btn btn-gray">저장버튼</div>
+        <br>
+        <div class="btn btn-blue">저장버튼</div>
+        <br>
+        <div class="btn btn-red">저장버튼</div>
+        <br><br><br><br>
+
+        <button class="btn btn-blue">저장버튼</button>
+        
+        
+        <a href="https://www.naver.com/" class="btn btn-red">로그인</a>
+    
+    </body>
+
+</html>
