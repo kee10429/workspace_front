@@ -10,14 +10,140 @@
     </head>
     <link rel="stylesheet" href="./ex21.css">
     <body>
-        <h3>회원가입</h3>
+        <div class="wrap">
+             <h3>회원가입</h3>
+            
+             <!-- 아이디 -->
+             <div class="form-height">
 
-        <div class="form-a padding">
-            <label>아이디</label>
-            <input type="text" name="" value="">
+                <label for="id-1" class="form-title">아이디</label>
+                <input id="id-1" type="text">
+
+             </div>
+
+             <!-- 패스워드 -->
+             <div class="form-height">
+
+                <label for="pwd-1" class="form-title">패스워드</label>
+                <input id="pwd-1" type="password">
+
+             </div>
+
+             <!-- 이름 -->
+             <div class="form-height">
+
+                <label for="name-1" class="form-title">이름</label>
+                <input id="name-1" type="text">
+
+             </div>
+
+             <!-- 프로필 사진 -->
+             <div class="form-height">
+                <span class="form-title">프로필사진</span>
+                <input type="file">
+             </div>
+
+             <!-- 주소 -->
+             <div class="form-height">
+                <span class="form-title">주소</span>
+                <input type="text">
+                <button type="submit">우편번호찾기</button>
+                <input type="text" class="block">
+             </div>
+
+             <!-- 이동통신사 -->
+             <div class="form-height">
+              <span class="form-title">이동통신사</span>
+                <select>
+                        <option>선택해주세요</option>
+                        <option>SKT</option>
+                        <option>LGU+</option>
+                        <option>KT</option>
+                </select>
+             </div>
+
+             <!-- 나이 -->
+            <div class="rd-chk">
+                <div class="form-height">
+                        <span class="form-title">나이</span>
+
+                        <label for="rd-1">10대</label>
+                        <input type="radio" id="rd-1">
+
+                        <label for="rd-2">20대</label>
+                        <input type="radio" id="rd-2">
+
+                        <label for="rd-3">30대</label>
+                        <input type="radio" id="rd-3">
+                    
+                        <label for="rd-4">40대</label>
+                        <input type="radio" id="rd-4">
+                        
+                        <label for="rd-5">기타</label>
+                        <input type="radio" id="rd-5">
+                </div>
+
+                <div class="form-height">
+                        <span class="form-title">혈액형</span>
+
+                        <label for="rd-a">A형</label>
+                        <input type="radio" id="rd-a">
+
+                        <label for="rd-b">B형</label>
+                        <input type="radio" id="rd-b">
+
+                        <label for="rd-c">O형</label>
+                        <input type="radio" id="rd-c">
+                    
+                        <label for="rd-ab">AB형</label>
+                        <input type="radio" id="rd-ab">
+                </div>
+
+                <div class="form-height">
+                    <span class="form-title">취미</span>
+
+                    <label for="chk-book">독서</label>
+                    <input type="checkbox" id="chk-book">
+
+                    <label for="chk-music">음악</label>
+                    <input type="checkbox" id="chk-music">
+
+                    <label for="chk-travel">여행</label>
+                    <input type="checkbox" id="chk-travel">
+                
+                    <label for="chk-movie">영화</label>
+                    <input type="checkbox" id="chk-movie">
+
+                    <label for="chk-code">코딩</label>
+                    <input type="checkbox" id="chk-code">
+
+                    <label for="chk-other">기타</label>
+                    <input type="checkbox" id="chk-other">
+                </div>
+            </div>
+
+            <div class="form-height">
+                <span class="form-title">자기소개</span>
+                <textarea></textarea>
+            </div>
+
+            <div class="form-height, btn-group">
+                <button type="submit">등록</button>
+                <button type="reset">초기화</button>
+            </div>
+
+
+
+
+             
+
+
+
+
+
+
         </div>
         
-
     </body>
 
 </html>

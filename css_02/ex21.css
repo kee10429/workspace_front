@@ -12,12 +12,57 @@ p, table, th, td, tr{
 
 body{
     background-color:#808080;
+    font-family:"맑은고딕";
+    font-size:12px;
 }
 
-.form-a{
-    border:1px solid #000000;
+div{border-bottom:1px solid #000;}
+
+h3{
+    font-size:18px;
+    font-weight:bold;
 }
 
-.padding{
-    padding:10px
+.wrap{
+    width:600px;
+    background-color: #fff;
+
+}
+
+.form-title{
+    width:120px;
+    text-align:center;
+    font-size:12px;
+    display:inline-block;
+}
+
+
+.form-height{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.block{
+    display:inline-block;
+}
+
+
+input, select, textarea{
+    font-family:"맑은고딕";
+    font-size:15px;
+}
+
+.rd-chk label{
+    font-family: "맑은고딕";
+    font-size:15px;
+}
+
+button{
+    width:120px;
+    padding:10px 10px;
+}
+
+.btn-group{
+    text-align:center;
+    margin:10px 0px 10psx 0px;
 }
