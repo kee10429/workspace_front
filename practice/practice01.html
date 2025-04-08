@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>게시판 연습</title>
+    </head>
+        <link rel="stylesheet" href="./practice01.css">
+    <body>
+        <wrap>
+            <h3 class="form-height">일반게시판</h3>
+            
+            <div class="form-height">
+                <label for="pick" class="form-title">게시판선택</label>
+                <select id="pick">
+                    <option>선택해주세요</option>
+                    <option>유머게시판</option>
+                    <option>일반게시판</option>
+                    <option>기타게시판</option>
+                </select>
+            </div>
+
+            <div class="form-height">
+                <label for="title" class="form-title">제목</label>
+                <input id="title" type="text" name="" value="" placeholder="제목을 입력해 주세요">
+            </div>
+
+            <div class="form-height">
+                <label for="pwd" class="form-title">비밀번호</label>
+                <input id="pwd" type="password" placeholder="패스워드를 입력하세요">
+            </div>
+
+            <div class="form-height">
+                <span class="form-title">공개범위</span>
+                
+                <label for="rd-1">본인</label>
+                <input id="rd-1" type="radio">
+
+                <label for="rd-2">로그인회원</label>
+                <input id="rd-2" type="radio">
+
+                <label for="rd-3">친구</label>
+                <input id="rd-3" type="radio">
+
+                <label for="rd-4">전체</label>
+                <input id="rd-4" type="radio">
+            </div>
+
+            <div class="form-height">
+                <span class="form-title">허용범위</span>
+
+                <label for="chk-1">댓글허용</label>
+                <input id="chk-1" type="checkbox">
+
+                <label for="chk-2">답글허용</label>
+                <input id="chk-2" type="checkbox">
+
+                <label for="chk-3">좋아요허용</label>
+                <input id="chk-3" type="checkbox">
+            </div>
+
+            <div class="form-height">
+                <textarea></textarea>
+            </div>
+
+            <div class="form-height">
+                <label for="file" class="form-title">첨부파일</label>
+                <input id="file" type="file">
+            </div>
+
+            <div class="form-height btn" >
+                <button type="submit">등록</button>
+                <button type="reset">초기화</button>
+
+            </div>
+
+
+
+        </wrap>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* 초기화 */
+body, div, 
+ul, li, dl, dt, ol, 
+h1, h2, h3, h4, h5, h6, 
+form, input, fieldset, legend, select, textarea, button,
+p, table, th, td, tr{
+    margin:0px;
+    padding:0px;
+}
+
+input, select ,textarea{
+    font-family:inherit;
+    font-size:inherit;
+}

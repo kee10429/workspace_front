@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* 초기화 */
+body, div, 
+ul, li, dl, dt, ol, 
+h1, h2, h3, h4, h5, h6, 
+form, input, fieldset, legend, select, textarea, button,
+p, table, th, td, tr{
+    margin:0px;
+    padding:0px;
+}
+
+input, select ,textarea{
+    font-family:inherit;
+    font-size:inherit;
+}
+
+/*전체 설정*/
+body{
+    background-color:#808080;
+    font-family:"맑은 고딕";
+    font-size:12px;
+}
+
+h3,div{
+    background-color:#fff;
+    width:700px;
+    border:1px solid #000;
+}
+
+/*넓이 설정*/
+.form-title{
+    width:80px;
+    display:inline-block;
+}
+
+.form-height{
+    padding-bottom:10px;
+}
+
+/*일반게시판*/
+h3{
+    font-size:18px;
+    font-weight: bold;
+}
+
+/*텍스트공간*/
+textarea{
+    width:650px;
+    height:100px;
+}
+
+.btn{
+    text-align:center;
+    display: inline-block;
+    padding:10px 0px 0px 0px:
+}
+
+button{
+    width:60px;
+    height:30px;
+}

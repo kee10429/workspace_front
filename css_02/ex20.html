@@ -8,12 +8,23 @@
         <title>스타일시트</title>
         <!-- 스타일시트자리 -->
          <link rel="stylesheet" href="./ex20.css">
+         <link rel="stylesheet" href="./reset.css">
+            <!-- 적용 css는 여러개를 거는 것도 가능함 -->
     </head>
-
+    
     <body>
         <div class="wrap">
         
             <h3>일반게시판</h3>
+
+            <div class="form-group clearfix" >
+                <ol>
+                    <li>홈</li>
+                    <li>게시판</li>
+                    <li>일반게시판</li>
+                </ol>
+            </div>
+
             
             <form action="" method="">
                 <!-- 게시판 선택 -->
@@ -57,7 +68,7 @@
                     <input id="rd-4" type="radio" name="range" value="">
                 </div>
 
-                <div>
+                <div class="form-group">
                     <span class="w80">허용범위</span>
                     <label>댓글허용</label>
                     <input type="checkbox" name="" value="">
@@ -69,7 +80,8 @@
 
                 <!-- 글내용 -->
                 <div class="form-group">
-                    <textarea></textarea>
+                    <label for="txt-content" class="w80">자기소개</label>
+                    <textarea id="txt-content"></textarea>
                 </div>
 
                 <!-- 첨부파일 -->

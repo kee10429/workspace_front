@@ -10,6 +10,14 @@ p, table, th, td, tr{
     padding:0px;
 }
 
+input, select ,textarea{
+    font-family:inherit;
+    font-size:inherit;
+}
+
+/* inherit은 상속하다라는 의미로 위에서 주는 것 그대로
+받는다는 의미 */
+
 body{
     background-color:#808080;
     font-family: "맑은고딕";
@@ -27,6 +35,23 @@ body{
     font-weight:bold;
 }
 
+/* 리스트 */
+
+.wrap ol{
+    list-style-type: none;
+    margin:10px 0px 10px 0px;
+}
+
+.wrap ol>li{
+    
+    float:left;
+    list-style-type: none;
+}
+
+.wrap ol>li::after{content:">";}
+
+.wrap ol>li:last-child::after{content:"";}
+
 /* 공통 */
 .form-group{
     /* border:1px solid #000; */
@@ -41,6 +66,8 @@ body{
 .w80{
     display:inline-block;
     width:80px;
+    
+    vertical-align:top;
 }
 
 /* 게시판 선택 */
@@ -65,8 +92,8 @@ input[type="checkbox"]{
 }
 
 /* 글내용 */
-.textarea{
-    width:685px;
+textarea{
+    width:500px;
     height:70px;
 }
 
@@ -83,3 +110,14 @@ input[type="checkbox"]{
     width: 60px;
     height: 30px;
 }
+
+
+
+.clearfix::before, .clearfix::after {
+    display: block; 
+    content: ""; 
+    line-height: 0;}
+.clearfix::after {
+    clear: both;
+}
+
