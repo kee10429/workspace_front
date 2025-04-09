@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/********************개인정보창***************/
+#main-log{
+    border:1px solid #000;
+    width:400px;
+    height:300px;
+    margin: 20px auto;
+    padding-left:150px;
+}
+
+ .log-title{
+    width:60px;
+    display:inline-block;
+} 
+
+#main-log input[type="text"]{
+    width:150px;
+    height:20px;
+}
+
+#main-log div{
+    padding: 10px 0px 10px 0px;
+}
+
+#main-log .button1{
+    padding-top:30px;
+}
+
+.button-last{
+    display: inline-block;
+    margin-left:80px;
+}
+
+.button-last>button{
+    width:100px;
+    height:30px;
+}
+
+input[type="radio"]{
+    margin-right:10px;
+}
+

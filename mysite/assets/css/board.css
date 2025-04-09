@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/****************************** 
+게시판 관련 페이지에서만 사용(리스트, 등록품, 수정품, 읽기) 
+*******************************/
+
+/*************************검색창**************************/
+#main #board-search{
+    /* border:1px solid #000; */
+    text-align:right;
+    padding:20px 0px 3px 0px;
+}
+
+#main #board-search input{
+    width:130px;
+    height:18px;
+}
+
+#main #board-search button{
+    width:40px;
+    height:21px;
+}
+
+
+/************************ 리스트 **************************/
+#main #board-list{
+    /* border:1px solid #000; */
+}
+
+#main #board-list table{
+    /* border:1px solid #000; */
+    border-collapse:collapse;
+    height:200px;
+    margin-top:5px;
+}
+
+#main #board-list table tr{
+    /* border:1px solid #000; */
+    border-top:2px solid gray;
+    height:40px;
+}
+
+#main #board-list table tr:first-child{
+    background-color: #a0a0a0;
+}
+
+#main #board-list table tr:last-child{
+    border-bottom:2px solid gray;
+}
+
+#main #board-list table td{
+    /* border:1px solid #000; */
+    padding-left:10px;
+}
+
+#main #board-list table .mid{
+    text-align: center;
+}
+/********************************* 리스트 */
+
+/********************************* 페이지 번호 *******/
+#page-number{
+    word-spacing: 10px;
+    text-align:center;
+    margin-top:7px;
+}
+/********************************* 페이지 번호 *******/
+
+/********************************* 버튼 *******/
+#write-button button{
+    width:50px;
+    height:30px;
+}
+
+#write-button{
+    text-align:right;
+}
+
+/********************************* 버튼 *******/
