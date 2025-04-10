@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/********************갤러리 관련********************/
+
+#main-gallery{
+    font-size:15px;
+    font-weight:bold;
+}
+/************버튼*************/
+#main #upload{
+    /* border:1px solid #000; */
+    text-align:right;
+}
+
+#main #upload .btn-1{
+    width:100px;
+    height:35px;
+    margin:10px 0px;
+}
+
+/************이미지*************/
+
+#main-gallery #photos{
+    /* border:1px solid #000; */
+    /* background-color:gray; */
+}
+
+#main-gallery #photos ul>li{
+    border:1px solid #808080;
+    width:185px;
+    height:210px;
+    padding-left:4px;
+    padding-right:4px;
+    float:left;
+    margin:0px 2px;
+}
+
+#main-gallery #photos img{
+    width:185px;
+    height:185px;
+}

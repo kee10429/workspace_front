@@ -6,7 +6,7 @@
 
         <link rel="stylesheet" href="../../assets/css/reset.css">
         <link rel="stylesheet" href="../../assets/css/mysite.css">
-        <link rel="stylesheet" href="../../assets/css/user.css">
+        <link rel="stylesheet" href="../../assets/css/user2.css">
     </head>
     <body>
         <div id="wrap">
@@ -54,52 +54,50 @@
                         </ol>
                     </div>
 
-                    <div id="main-log">
-                        <!-- 회원가입 -->
+                    <div id="password-change">
                         <div>
-                            <div class="button1">
-                                <span class="log-title">아이디</span>
-                                <input type="text" placeholder="아이디를 입력하세요">
-                                <button type="submit">중복체크</button>
-                            </div>
+                            <span class="user-title">아이디</span>
+                            <span class="userid">userid</span>
+                        </div>
 
-                            <div>
-                                <span class="log-title">패스워드</span>
-                                <input type="password" placeholder="비밀번호를 입력하세요">
-                            </div>
+                        <div>
+                            <label for="psw" class="user-title">패스워드</label>
+                            <input id="psw" type="password" placeholder="비밀번호를 입력하세요">
+                        </div>
+                        
+                        <div>
+                            <label for="name" class="user-title">이름</label>
+                            <input id="name" type="text" placeholder="이름을 입력하세요">
+                        </div>
 
-                            <div>
-                                <span class="log-title">이름</span>
-                                <input type="text" placeholder="이름을 입력하세요">
-                            </div>
-
-                            <div>
-                                <span class="log-title">성별</span>
-                                남
-                                <input type="radio">
-                                여
-                                <input type="radio">
-                            </div>
+                        <div>
+                            <span class="user-title">성별</span>
                             
-                            <div>
-                                <span class="log-title">약관동의</span>
-                                <input type="checkbox">
-                                서비스 약관에 동의합니다.
-                            </div>
+                            <label for="man">남</label>
+                            <input id="man" type="radio">
+                            <label for="woman">여</label>
+                            <input id="woman" type="radio">
                         </div>
 
-                        <div class="button-last">
-                            <button class="btn" type="submit">회원가입</button>
+                        <div>
+                            <button type="submit">회원정보수정</button>
                         </div>
+                    
+                        
                     </div>
-                </div>
-            </div>
 
+                </div>
+
+
+            </div>
+                
             <div id="footer">
                 <p>
                     Copyright ⓒ 2025 한기정. All right reserved
                 </p>
             </div>
+
         </div>
+        
     </body>
 </html>

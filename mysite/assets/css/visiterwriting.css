@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*******************테이블*********************/
+
+/***********테이블1*******/
+#table-1{
+    border-collapse: collapse;
+    width:800px;
+    font-weight:bold;
+    margin-top:20px;
+    margin-bottom:25px;
+}
+
+#table-1 tr{
+    border:1px solid #808080;
+}
+
+#table-1 tr>td{
+    border:1px solid #808080;
+}
+
+input[type="text"], input[type="password"]{
+    width:330px;
+    height:25px;
+    margin:4px 4px;
+}
+
+textarea{
+    width:780px;
+    height:160px;
+    margin:5px 5px;
+}
+
+#table-1 tr .btn{
+    text-align:center;
+}
+
+#table-1 tr button{
+    width:100px;
+    height:30px;
+    margin:5px 0px;
+}
+
+/***************테이블ex**************/
+#table-ex{
+    border-collapse: collapse;
+    width:800px;
+    height:90px;
+    margin-top:15px;
+}
+
+#table-ex tr{
+    border: 1px solid #808080;
+}
+
+#table-ex tr>td{
+    border: 1px solid #808080;
+    padding-left:10px;
+}

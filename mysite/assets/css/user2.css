@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/***************회원정보 수정*********************/
+
+#main #password-change{
+    border:1px solid #000;
+    width:400px;
+    height:250px;
+    margin: 20px auto;
+    padding-left:150px;
+    padding-top:50px;
+}
+
+#main #password-change .userid{
+    font-weight:bold;
+}
+
+#password-change .user-title{
+    width:60px;
+    display:inline-block;
+}
+
+#password-change input[type="text"]{
+    width:150px;
+    height:20px;
+}
+
+#password-change div{
+        padding: 10px 0px 10px 0px;
+}
+
+input[type="radio"]{
+    margin-right:10px;
+}
+
+button{
+    margin-left:80px;
+    margin-top:15px;
+    padding:5px;
+}
+

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#login-box{
+    border:1px solid #808080;
+    width:600px;
+    height:250px;
+    margin: 20px auto;
+}
+
+#login-box tr>td{
+    text-align: right;
+    padding:10px;
+}
+
+.login{
+    /* border:1px solid #000; */
+    margin:40px auto;
+}
+
+button{
+    margin-left:280px;
+    width:80px;
+    height:28px;
+
+}

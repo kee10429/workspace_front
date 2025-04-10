@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#normal-title{
+    /* border:1px solid #000; */
+    margin-top:20px;
+}
+
+#normal-title input[type="text"]{
+    width:740px;
+    margin-left:25px;
+}
+
+textarea{
+    width:800px;
+    height:350px;
+    margin-top:6px;
+}
+
+#normal-button{
+    /* border:1px solid #000; */
+    text-align:right;
+    margin-top:5px;
+}
+
+#normal-button button{
+    width:60px;
+    height:25px;
+}
+
