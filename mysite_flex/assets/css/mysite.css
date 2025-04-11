@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* 레이아웃 */
+
+/* https://poiemaweb.com/html5-semantic-web  시멘틱웹*/
+
+#wrap{
+    width:1000px;
+    margin: 0px auto;
+    
+}
+
+header{
+    /* border:1px solid #000; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #bfbfbf;
+    padding:5px 0px;
+}
+
+nav{
+    /* border:1px solid #000; */
+    border-bottom:1px solid #bfbfbf;
+    
+}
+
+#content{
+    
+    width:850px;
+    margin:30px auto;
+}
+
+footer{
+    /* border: 1px solid #000; */
+    background-color:#dddddd ;
+    height: 35px;
+    text-align:center;
+    padding:15px 0px 0px 0px;
+    margin-top:50px;
+}
+
+/* 해더 */
+header h1{
+    font-size:36px;
+    font-weight:bold;
+    color:#79B30B;
+}
+
+header ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    padding:5px;
+    /* background-color:#ff0000; */
+}
+
+header ul>li{
+    padding:3px 6px;
+    border:1px solid #bfbfbf;
+    border-radius: 2px;
+    background-color:#fff;
+    margin-left:5px;
+    font-size:10px;
+}
+
+/* 네비 */
+nav ul>li{
+    /* border:1px solid red; */
+    font-size:20px;
+    font-weight:bold;
+    width:250px;
+    text-align:center;
+    padding:10px 0px;
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow:1;
+    flex-basis:0;
+}
+
+/* 컨텐트 */
+
+#content .profile{
+    width: 250px;
+    height:250px;
+}
+
+#content .introduce{
+    margin-left:25px;
+}
+
+#content .introduce .intro-bold{
+    font-weight:bold;
+}
+
+#content{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+/*푸터*/

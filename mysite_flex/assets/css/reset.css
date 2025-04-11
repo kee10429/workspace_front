@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/********************************** 전체 초기화 ********************************/
+
+
+/* 초기화 */
+body, div, 
+ul, li, dl, dt, ol, 
+h1, h2, h3, h4, h5, h6, 
+form, input, fieldset, legend, select, textarea, button,
+p, table, th, td, tr{
+    margin:0px;
+    padding:0px;
+}
+
+input, select ,textarea{
+    font-family:inherit;
+    font-size:inherit;
+}
+
+.clearfix::before, .clearfix::after {display: block; content: ""; line-height: 0;}
+.clearfix::after {clear: both;}
+
+
+ol, li {
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none; /* 밑줄제거 */
+    color:inherit;         /* 부모색상상속*/ 
+}
+
+table{
+    border-collapse:collapse;
+}
